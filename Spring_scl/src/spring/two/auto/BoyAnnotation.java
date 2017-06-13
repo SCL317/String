@@ -27,7 +27,7 @@ public class BoyAnnotation {
 	}
 
 	public static void main(String[] args) {
-		ctx = new ClassPathXmlApplicationContext("demo.xml");
+		ctx = new ClassPathXmlApplicationContext("spring_two_type.xml");
 		BoyAnnotation boy = (BoyAnnotation) ctx.getBean("boyAnnotation");
 		logger.info(boy.usaGirlFriend.speak());
 	}
