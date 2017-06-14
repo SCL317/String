@@ -1,32 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk8">
-		<attributes>
-			<attribute name="owner.project.facets" value="java"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v8.0">
-		<attributes>
-			<attribute name="owner.project.facets" value="jst.web"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
-	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/aopalliance-1.0.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/aspectjweaver-1.8.10.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/cglib-nodep-3.2.4.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/lombok-1.16.12.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/spring-aop-4.3.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/spring-asm-3.1.4.RELEASE.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/spring-beans-4.3.9.RELEASE.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/spring-context-4.3.9.RELEASE.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/spring-core-4.3.9.RELEASE.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/spring-expression-4.3.9.RELEASE.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-logging-1.2.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/log4j-1.2.17.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/lombok-1.16.12.jar"/>
-<<<<<<< HEAD
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/spring-asm-3.1.4.RELEASE.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/aopalliance-1.0.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/aspectjweaver-1.8.10.jar"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/cglib-nodep-3.2.4.jar"/>
-=======
->>>>>>> branch 'master' of https://github.com/SCL317/String.git
-	<classpathentry kind="output" path="build/classes"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-beanutils-1.9.3.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-dbcp-1.4.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-pool-1.6.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/spring-jdbc-4.3.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/spring-tx-4.3.3.RELEASE.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/spring-jdbc-4.3.9.RELEASE.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/spring-tx-4.3.9.RELEASE.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Database"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/JavaBase"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/JavaBaseSCL"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/JavaPrj_1"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/JavaWeb"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/JavaWebSCL"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/maven_Demo"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/module1"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/module2"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/MvnWeb"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/MyJNDI"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/myTest"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/WebBase"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/WebBaseSCL"/>
+	<classpathentry kind="output" path="bin"/>
 </classpath>

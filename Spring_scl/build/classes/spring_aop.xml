@@ -14,7 +14,8 @@
 	<bean id="loggerAfterReturning" class="spring_aop.aop.LoggerAfterReturning" />
 
 	<aop:config>
-		<aop:pointcut expression="execution(public void addNewUser(spring_aop.entity.User))"
+		<aop:pointcut
+			expression="execution(public void addNewUser(spring_aop.entity.User))"
 			id="pointcut" />
 		<aop:advisor advice-ref="loggerBefore" pointcut-ref="pointcut" />
 		<aop:advisor advice-ref="loggerAfterReturning"
