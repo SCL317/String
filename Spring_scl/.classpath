@@ -36,5 +36,6 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/myTest"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/WebBase"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/WebBaseSCL"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Struts_scl"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
